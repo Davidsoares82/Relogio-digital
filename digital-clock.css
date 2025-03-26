@@ -1,0 +1,80 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #7B1FA2, #9C27B0); /* Roxo escuro para lilás */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Relógio */
+.clock {
+    display: flex;
+    flex-direction: row; /* Garante que fique na horizontal */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Caixas dos números */
+.box {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo dos números */
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Estilo dos rótulos */
+.label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 0.9rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
